@@ -1,5 +1,12 @@
+@font-face {
+    font-family: 'Bitter';
+    src: local('Bitter'), url('./fonts/Bitter/static/Bitter-Regular.ttf') format('truetype');
+}
+
 body {
+    font-family: 'Bitter';
     font-size: 20px;
+    background-color: #eee2dc;
 }
 
 .header {
@@ -16,16 +23,38 @@ body {
 
 .header a {
     text-decoration: none;
-    color: black;
+    color: #ac3b61;
     border: 2px solid grey;
     padding: 10px 20px;
     min-width: 200px;
     height: 20px;
     text-align: center;
     border-radius: 10px;
+    background-color: #edc7b7;
 }
 
 .main {
     width: 100%;
 }
 
+.createPost form {
+    display: flex;
+    margin-left: 40px;
+    outline: 1px solid black;
+    flex-direction: column;
+    width: 400px;
+    height: 87%;
+    align-items: center;
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+    justify-content: flex-end;
+    background-color: #bab2b5;
+    color: white;
+}
+
+.createPost button {
+    margin-bottom: 10px;
+    width: 200px;
+    height: 30px;
+}

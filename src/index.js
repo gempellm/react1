@@ -37,10 +37,10 @@ function CreatePost() {
     return (
         <div className="createPost">
             <form>
-                <input type="text" id="topic" name="topic"></input>
                 <label for="topic">topic</label>
-                <textarea id="essence" name="essence"></textarea>
+                <input type="text" id="topic" name="topic" size="40"></input><br />
                 <label for="essence">essence</label>
+                <textarea id="essence" name="essence" rows="40" cols="40"></textarea><br />
                 <button>Отправить</button>
             </form>
         </div>
