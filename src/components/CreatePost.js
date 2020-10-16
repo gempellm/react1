@@ -5,7 +5,7 @@ import Container from 'react-bootstrap/Container'
 
 function CreatePost() {
     return (
-        <Container>
+        <Container style={{marginBottom: "20px"}}>
             <Form>
                 <Form.Group controlId="postTopic">
                     <Form.Label>Write your topic</Form.Label>

@@ -11,7 +11,7 @@ function Main() {
 
     return (
         <div>
-            <CardDeck style={{style: "flex", flexDirection: "row-reverse"}}>
+            <CardDeck style={{style: "flex", flexDirection: "row-reverse", margin: "20px", justifyContent: "space-around"}}>
                 <Card className="w-25" border="dark">
                     <Card.Img variant="top" src={lightbulb} alt="lightbulb" />
                     <Card.Body>
